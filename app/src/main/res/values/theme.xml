@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="listRowStyle">
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="android:background">@drawable/mygrid_layout</item>
+        <!-- <item name="android:textColor">@drawable/list_item_text_color_selector</item> -->
+    </style>
+
+    <style name="listitemStyle_header">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@drawable/list_item_text_color_selector</item>
+    </style>
+
+    <style name="listitemStyle_description">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@drawable/list_item_text_color_selector</item>
+    </style>
+
+    <style name="listviewStyle">
+        <item name="android:divider">@android:color/transparent</item>
+        <item name="android:dividerHeight">5.0sp</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:scrollbars">vertical</item>
+    </style>
+
+    <style name="form_editext">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+</resources>

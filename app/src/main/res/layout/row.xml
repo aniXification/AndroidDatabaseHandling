@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/listRowStyle"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:focusableInTouchMode="false" >
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:orientation="horizontal"
+        android:weightSum="5" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_note_icon" />
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="3"
+            android:focusable="false"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/toptext"
+                style="@style/listitemStyle_header"
+                android:focusable="false"
+                android:text="Header text" />
+
+            <TextView
+                android:id="@+id/bottomtext"
+                style="@style/listitemStyle_description"
+                android:focusable="false"
+                android:singleLine="true"
+                android:text="Footer Text" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/cb_fav"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:focusable="false" />
+    </LinearLayout>
+
+</LinearLayout>

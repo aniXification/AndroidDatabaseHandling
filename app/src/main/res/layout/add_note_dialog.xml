@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textview_dialog_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/note_title"
+        style="@style/form_editext"
+        android:hint="note title"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/note_description"
+        style="@style/form_editext"
+        android:hint="note description"
+        android:inputType="text" />
+
+    <RadioGroup
+        android:id="@+id/radioType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Note" />
+
+        <RadioButton
+            android:id="@+id/radioReminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reminder" />
+    </RadioGroup>
+
+
+
+</LinearLayout>
